@@ -1,0 +1,143 @@
+.meu_nome{
+    display: flex;
+    flex-direction: end;
+    justify-content: end;
+}
+.modal{
+    position: fixed;
+    z-index: 1;
+    padding-top: 80px;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background: rgb(219, 217, 217);
+}
+.box{
+    text-align: center;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 70%;
+    height: 70%;
+
+}
+.parte_cima{
+    display: flex;
+}
+@-webkit-keyframes animate{
+    from{
+        top: -300px;
+        opacity: 0;
+    }
+    to{
+        top: 0;
+        opacity: 1;
+    }
+}
+
+.fechar{
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 9px;
+    padding: 6px;
+    background: red;
+    margin-left: 8px;
+    margin-top: 6px;
+}
+.fechar:hover, 
+.fechar:focus{
+    color: rgb(214, 214, 214);
+    cursor: pointer;
+    text-decoration: dotted;
+}
+
+#fechar{
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 9px;
+    padding: 6px;
+    background: red;
+    margin-left: 8px;
+    margin-top: 6px;
+}
+#fechar:hover, 
+#fechar:focus{
+    color: rgb(214, 214, 214);
+    cursor: pointer;
+    text-decoration: dotted;
+}
+
+.div_tudo_nisso{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+button{
+    width: 20%;
+}
+h1{
+    text-align: center;
+}
+.frases_do_texto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+summary{
+    background-color: black;
+    width: 100%;
+    color: white;
+}
+
+.titulo_texto_tio{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.texto_frases_texto{
+    background-color: rgb(20, 19, 19);
+}
+
+.tudo{
+    margin-top: 50px;
+}
+
+.text_tio{
+    margin-top: 60px;
+}
+
+#botao{
+    margin-right: 30px;
+}
+#botao2{
+    margin-right: 30px;
+}
+#botao3{
+    margin-right: 30px;
+}
+#botao4{
+    margin-right: 30px;
+}
+#botao5{
+    margin-right: 30px;
+}
+#botao6{
+    margin-right: 30px;
+}
+#botao7{
+    margin-right: 30px;
+}
+#botao8{
+    margin-right: 30px;
+}
+#botao9{
+    margin-right: 30px;
+}
+#botao10{
+    margin-right: 30px;
+}
